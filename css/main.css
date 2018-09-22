@@ -1,0 +1,332 @@
+/*common css*/
+body,html{
+    padding: 0;
+    margin: 0;
+}
+img{
+    max-width: 100%;
+}
+li{
+    list-style: none
+    
+}
+a,a:hover{
+    text-decoration: none
+}
+.bg-1{
+    background: #ffffff;
+}
+.bg-2{
+    background: #2E3E4E;
+}
+.bottom_padding{
+    padding-bottom: 40px
+}
+/*header css*/
+.logo a{
+      font-family: 'Lavanderia-Regular';
+}
+.logo {
+  padding: 11px 0 0;
+  text-align: right;
+}
+.logo > a {
+    color: black;
+    font-size: 30px;
+}
+.logo spane {
+  font-size: 21px;
+}
+.main_menu {
+}
+.main_menu ul {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+.main_menu ul li {
+  display: inline-block;
+  text-align: right;
+}
+.main_menu ul li a {
+  color: black;
+  display: block;
+  font-size: 16px;
+  line-height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  text-transform: uppercase;
+}
+
+.main_menu ul li a:hover {
+  border-bottom: 3px solid #e1e1e1;
+}
+.search {
+  padding-top: 20px;
+}
+
+/* slider-area css */
+.slider-bg{
+	height:500px;
+	
+}
+.slider-caption {
+  margin-top: 160px;
+  text-align: center;
+}
+
+.slider-caption h1 {
+  background: #e2534b none repeat scroll 0 0;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  font-size: 50px;
+  font-weight: 900;
+  padding: 0 4px;
+}
+.slider-caption p {
+  background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 25.6px;
+  padding: 0 2px;
+  width: 470px;
+}
+a.custom-slider-control {
+  background:#EA635B none repeat scroll 0 0;
+  display: block;
+  height: 57px;
+  line-height: 57px;
+  text-align: center;
+  width: 57px;
+  position:absolute;
+  top:50%;
+  font-size:40px;
+  color:#fff;
+  
+}
+a.custom-slider-control.left {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  left:0px;
+}
+a.custom-slider-control.right {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  right:0px;
+}
+.carousel-indicators {
+  bottom: -41px;
+}
+.carousel-indicators .active {
+  background-color: #ea635b;
+  height: 5px;
+  margin: 0;
+  width: 60px;
+}
+.carousel-indicators li {
+  background-color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  display: inline-block;
+  height: 5px;
+  margin: 0;
+
+  width: 60px;
+}
+/*slider_bg css*/
+.slider_bg {
+  height: 500px;
+}
+.carousel-caption {
+  padding-bottom: 160px;
+}
+.carousel-caption h2 {
+  font-size: 45px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+.carousel-caption p {
+  font-size: 14px;
+  padding-bottom: 30px;
+}
+.carousel-caption > a {
+  background: #f58560 none repeat scroll 0 0;
+  border-radius: 5px;
+  padding: 13px 37px;
+  text-transform: uppercase;
+    color: #fff;
+}
+/*service area css*/
+.service_area{
+        position: relative;
+}
+.all_service{
+    padding-top: 40px;
+
+}
+.all_service::after {
+  background: #248fc3 none repeat scroll 0 0;
+  border-radius: 5px;
+  color: #fff;
+  content: "OUR SERVICE";
+  left: 45%;
+  padding: 10px 20px;
+  position: absolute;
+  top: -22px;
+}
+.our_service {
+  padding: 0 49px;
+  text-align: center;
+}
+.single_service i {
+  background: #248fc3 none repeat scroll 0 0;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 54px;
+  height: 80px;
+  line-height: 80px;
+  width: 80px;
+}
+.single_service > h2 {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.single_service > p {
+  color: #838383;
+  font-size: 12px;
+}
+/*fortfolio awesome*/
+.col-md-2.more {
+  width: 139px;
+}
+.col-md-10.porfolio > h2 {
+  color: #f7925c;
+  text-align: left;
+  text-transform: capitalize;
+}
+.col-md-2.more > h2 {
+  background: #1f91c3 none repeat scroll 0 0;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 15px;
+  text-align: right;
+  text-transform: capitalize;
+}
+.single_portfolio h3 {
+  color: #f7925c;
+  font-size: 20px;
+  font-weight: 600;
+}
+.single_portfolio > p {
+  color: #fff;
+  font-size: 14px;
+  padding-bottom: 40px;
+}
+/****************
+what we offer area
+**************/
+.what_we_offer_area {
+  border-bottom: 3px solid #ddd;
+}
+.section_heading {
+  text-align: center;
+}
+.section_heading > h2 {
+  color: #0088c2;
+  font-size: 35px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.section_heading > p {
+  color: #a8a8a8;
+  font-size: 15px;
+  font-weight: 600;
+}
+.single_offer {
+  padding: 0 44px 30px;
+}
+.single_offer > h3 {
+  color: #0077c2;
+  text-transform: capitalize;
+}
+.single_offer > p {
+  color: #7d7d7d;
+  font-size: 15px;
+}
+.single_offer a {
+  background: #0077c2 none repeat scroll 0 0;
+  border-radius: 5px;
+  color: #fff;
+  padding: 5px 7px;
+  text-transform: capitalize;
+}
+/***************
+testimonial area css
+*********************/
+.testimonial {
+  text-align: center;
+}
+.testimonial h1 {
+  color: #0077c2;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.testimonial p {
+  font-size: 20px;
+}
+/****************
+footer area css
+******************/
+.footer_wed > h3 {
+  color: #f7925c;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+       padding-bottom: 10px;
+}
+.footer_wed > ul {
+  padding-left: 0;
+}
+.single_feed_record h4 {
+  color: #909090;
+  font-size: 14px;
+  font-weight: 400;
+}
+.single_feed_record h5 {
+  color: #a2a2a2;
+}
+.newslettet_p > p {
+  color: #959595;
+  font-size: 16px;
+}
+.footer_wed input[type="submit"] {
+  background: #f7925c none repeat scroll 0 0;
+  padding-top: 0;
+}
+.single_project img {
+  height: 66px;
+  padding: 0;
+}
+.single_project h4 {
+  color: #848484;
+  font-size: 15px;
+  margin: 0;
+}
+.single_project h5 {
+  color: #a9a9a9;
+}
+
+.footer_wed li {
+  padding-bottom: 12px;
+}
+.footer_wed i {
+  color: #238db5;
+  font-size: 27px;
+  margin-right: 18px;
+}
